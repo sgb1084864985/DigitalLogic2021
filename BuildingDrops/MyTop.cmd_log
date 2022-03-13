@@ -1,0 +1,199 @@
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+xst -intstyle ise -ifn "G:/ise_project/BuildingDrops/MyTop.xst" -ofn "G:/ise_project/BuildingDrops/MyTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc my_constraints.ucf -p xc7k160t-ffg676-1 MyTop.ngc MyTop.ngd  
+map -intstyle ise -p xc7k160t-ffg676-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o MyTop_map.ncd MyTop.ngd MyTop.pcf 
+par -w -intstyle ise -ol high -mt off MyTop_map.ncd MyTop.ncd MyTop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml MyTop.twx MyTop.ncd -o MyTop.twr MyTop.pcf -ucf my_constraints.ucf 
+bitgen -intstyle ise -f MyTop.ut MyTop.ncd 

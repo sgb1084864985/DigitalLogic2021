@@ -1,0 +1,21 @@
+Running: E:\ISE_SOFTWARE\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/ise_project/BuildingDrops/sim_ps2_isim_beh.exe -prj G:/ise_project/BuildingDrops/sim_ps2_beh.prj work.sim_ps2 work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/ise_project/BuildingDrops/ps2_keyboard_driver.v" into library work
+Analyzing Verilog file "G:/ise_project/BuildingDrops/sim_ps2.v" into library work
+Analyzing Verilog file "E:/ISE_SOFTWARE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 159544 KB
+Fuse CPU Usage: 155 ms
+Compiling module ps2_keyboard_driver
+Compiling module sim_ps2
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable G:/ise_project/BuildingDrops/sim_ps2_isim_beh.exe
+Fuse Memory Usage: 166044 KB
+Fuse CPU Usage: 171 ms

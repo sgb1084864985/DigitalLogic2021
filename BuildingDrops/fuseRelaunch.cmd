@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/ise_project/BuildingDrops/sim_ps2_isim_beh.exe" -prj "G:/ise_project/BuildingDrops/sim_ps2_beh.prj" "work.sim_ps2" "work.glbl" 
